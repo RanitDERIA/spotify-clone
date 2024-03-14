@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option spot" style="opacity: 1;">
+                    <a href="#"><img src="./assets/Spotify-Black-and-White-Logo.png" alt="Spotify"></a>
+                </div>
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib nav-option">
+                        <img src="./assets/library_icon.png" alt="library">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons nav-option">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="boxes">
+                    <div class="lib-box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="lib-box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="backward">
+                    <img src="./assets/forward_icon.png" alt="forward" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down"></i> Install
+                        App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-image">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played . . .</p>
+                    </div>
+                </div>
+            </div>
+                <h2>Trending Now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" class="card-image">
+                        <p class="card-title">Mahiye Jinna Sohna</p>
+                        <p class="card-info">Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/S/dmp-catalog-images-prod/images/d5ef9056-a8d4-4b6f-a602-1aa525d80b26/d5ef9056-a8d4-4b6f-a602-1aa525d80b26-298243005._SX576_SY576_BL0_QL100__UX250_FMwebp_QL85_.jpg" class="card-image">
+                        <p class="card-title">Goppo mir-er Thek</p>
+                        <p class="card-info">Mir Afsar Ali</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" class="card-image">
+                        <p class="card-title">Ordinary Person (From "Leo")</p>
+                        <p class="card-info">Anirudh Ravichander & Nikhita Gandhi</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61cFszL+pOL._AA256._SX354_SY354_BL0_QL100__UX250_FMwebp_QL85_.jpg" class="card-image">
+                        <p class="card-title">Mitthye Premer Gaan</p>
+                        <p class="card-info">Ishan Mitra</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/81BlFgDpyZL._AA256._SX354_SY354_BL0_QL100__UX250_FMwebp_QL85_.jpg" class="card-image">
+                        <p class="card-title">Hold On</p>
+                        <p class="card-info">Justin Bieber</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/51ZevCfIl0L._SX354_SY354_BL0_QL100__UX250_FMwebp_QL85_.jpg" class="card-image">
+                        <p class="card-title">Worm Ride</p>
+                        <p class="card-info">Hans Zimmer - Dune: Part Two</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61YLcDlCIpL._UXNaN_FMwebp_QL85_.jpg?isCloudQueue=true" class="card-image">
+                        <p class="card-title">Love Is Gone (Acoustic)</p>
+                        <p class="card-info">SLANDER & Dylan Matthew</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71eWM3EifeL._UXNaN_FMwebp_QL85_.jpg?isCloudQueue=true" class="card-image">
+                        <p class="card-title">Dreams (Acoustic)</p>
+                        <p class="card-info">Jada Facer & Dave Moffatt</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/91TTBVklccL._UXNaN_FMwebp_QL85_.jpg?isCloudQueue=true" class="card-image">
+                        <p class="card-title">Who I Am</p>
+                        <p class="card-info">Alan Walker, Putri Ariani & Peder Elias</p>
+                    </div>
+                    <div class="card bow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>                    
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/51XoErW4iYL._SX354_SY354_BL0_QL100__UX250_FMwebp_QL85_.jpg" class="card-image">
+                        <p class="card-title">50 Most Played</p>
+                        <p class="card-info">India</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/51R65rBaCkL._SX354_SY354_BL0_QL100__UX250_FMwebp_QL85_.jpg" class="card-image">
+                        <p class="card-title">50 Most Played</p>
+                        <p class="card-info">International</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/415X4c4o40L._SX354_SY354_BL0_QL100__UX250_FMwebp_QL85_.jpg" class="card-image">
+                        <p class="card-title">50 Most Played</p>
+                        <p class="card-info">Bengali</p>
+                    </div>
+        </div>
+        <div class="footer">
+            <div class="line"><br><br>
+                <span class="cp">&copy; 2024 Spotify AB</span>
+            </div>
+        </div>
+        
+        <div class="music-player">
+            <div class="album">
+                <div class="title">
+                    <img src="https://m.media-amazon.com/images/I/81LsVZBCY8L._AA256._SX354_SY354_BL0_QL100__UX250_FMwebp_QL85_.jpg" alt="bagha-jatin">
+                </div>
+                <div class="song">
+                    <p class="name">Ashbo Phire - From "Bagha Jatin"</p>
+                    <span>Arijit Singh, Nilayan Chatterjee</span>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="height: 2.7rem;opacity: 1;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <spam class="tot-time">4:33</spam>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-brands fa-stack-overflow" style="padding-right: 1.5rem;"></i>
+                <i class="fa-solid fa-laptop"
+                style="padding-right: 1.5rem;"></i>
+                <i class="fa-solid fa-volume-low" style="padding-right: 1rem;"></i>
+                <input type="range" name="volume" >
+                <i class="fa-solid fa-arrow-up-right-from-square" style="padding-right: 1rem; padding-left: 1rem;"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
